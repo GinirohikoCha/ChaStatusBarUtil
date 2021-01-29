@@ -23,7 +23,9 @@ Add it in your root build.gradle at the end of repositories:
 	dependencies {
 	        implementation 'com.github.GinirohikoCha:ChaStatusBarUtil:1.0.0'
 	}
-#### Setp 3. Extends your Activity to **ChaStatusBarActivity** and user method **setImmersiveSystemBar(int type)**
+#### Setp 3. Extends your Activity to ChaStatusBarActivity
+
+call method **setImmersiveSystemBar(int type)**
 
 	public class MainActivity extends ChaStatusBarActivity {
 	
