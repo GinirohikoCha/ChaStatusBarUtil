@@ -25,7 +25,7 @@ Add it in your root build.gradle at the end of repositories:
 	}
 #### Setp 3. Extends your Activity to ChaStatusBarActivity
 
-call method **setImmersiveSystemBar(int type)**
+Call method **setImmersiveSystemBar(int type)**
 
 	public class MainActivity extends ChaStatusBarActivity {
 	
@@ -44,16 +44,19 @@ call method **setImmersiveSystemBar(int type)**
 		}
 	}
 
-or call the util method:
-	
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+Or call util static method:
 
-		ChaStatusBarUtil.setImmersiveSystemBar(this, ChaStatusBarUtil.TRANSPARENT_SYSTEM_BAR);
-		ChaStatusBarUtil.setStatusBarLightMode(this); // Optional
-		ChaStatusBarUtil.setNavigationBarLightMode(this); // Optional
-	}
+    public class MainActivity extends AppCompatActivity {
+
+        @Override
+        protected void onCreate(@Nullable Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+
+            ChaStatusBarUtil.setImmersiveSystemBar(this, ChaStatusBarUtil.TRANSPARENT_SYSTEM_BAR);
+            ChaStatusBarUtil.setStatusBarLightMode(this); // Optional
+            ChaStatusBarUtil.setNavigationBarLightMode(this); // Optional
+        }
+    }
 #### Setp 4. Get system bar height
 You can get system bar height with method **getStatusBarHeight()** or **getNavigationBarHeight()** to adjust your layout(add padding) while in **TRANSPARENT_SYSTEM_BAR** mode
