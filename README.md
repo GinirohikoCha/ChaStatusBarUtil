@@ -6,7 +6,7 @@ An immersive navigation bar &amp; status bar util for Android app.It works for A
 ## Sample
 ![showcase](https://github.com/GinirohikoCha/ChaStatusBarUtil/blob/master/image/1611902724439.gif)
 
-[download apk](https://github-releases.githubusercontent.com/334059680/ec359000-6249-11eb-8f67-40569240a58d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210129T075226Z&X-Amz-Expires=300&X-Amz-Signature=caf3da3058ea31194a4841c5fa3106bfc38ed7cf8691cf3753a05c96169798f4&X-Amz-SignedHeaders=host&actor_id=26181775&key_id=0&repo_id=334059680&response-content-disposition=attachment%3B%20filename%3Ddemo.apk&response-content-type=application%2Fvnd.android.package-archive)
+[download apk](https://github.com/GinirohikoCha/ChaStatusBarUtil/releases/download/1.0.0/demo.apk)
 ## Usage
 #### Step 1. Add the JitPack repository to your build file
 
