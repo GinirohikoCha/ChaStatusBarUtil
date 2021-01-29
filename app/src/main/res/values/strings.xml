@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChaStatusBarUtil</string>
+
+    <string name="author">銀色飛行猹</string>
+
+    <string name="homepage">主页</string>
+    <string name="discover">发现</string>
+    <string name="message">消息</string>
+</resources>
